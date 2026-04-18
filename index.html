@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>xqz-xqz</title>
+    <!-- Font Awesome 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 个人资料区 -->
+        <div class="profile">
+            <!-- 头像 -->
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="头像" 
+                 onerror="this.src='https://ui-avatars.com/api/?name=GitHub+User&size=120&background=3b82f6&color=fff'">
+            <div class="profile-info">
+                <h1>xqz-xqz</h1>
+                <div class="tagline">
+                    <span>小白</span>
+                    <span class="badge"><i class="fas fa-map-pin"></i> 中国·北京</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 关于我 -->
+        <div class="section">
+            <div class="section-title">
+                <i class="fas fa-user-astronaut"></i> 关于我
+            </div>
+            <div class="about-text">
+                <p>👋 热爱文化</p>
+            </div>
+        </div>
+
+        <!-- 技能 -->
+        <div class="section">
+            <div class="section-title">
+                <i class="fas fa-code"></i> 技术栈
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript/TS</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:20%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:50%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:5%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:5%"></div></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skill-item">
+                        <span class="skill-name">Go</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:60%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Docker/K8s</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:82%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git/GitHub</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:90%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 精选项目 -->
+        <div class="section">
+            <div class="section-title">
+                <i class="fas fa-rocket"></i> 项目
+            </div>
+            <div class="card-grid">
+                <div class="card project-card">
+                    <h3><i class="far fa-folder-open"></i> weather-cli</h3>
+                    <p>一个用 Rust 编写的命令行天气工具，支持实时展示和7日预报，数据源来自 OpenWeatherMap。</p>
+                    <div class="project-tags">
+                        <span class="tag">Rust</span>
+                        <span class="tag">CLI</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <h3><i class="far fa-folder-open"></i> portfolio-2025</h3>
+                    <p>轻量级个人作品集模板，响应式设计，适配 GitHub Pages。你正在看的页面即基于它。</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">GitHub Pages</span>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <h3><i class="far fa-folder-open"></i> note-linker</h3>
+                    <p>Obsidian 插件，自动建立笔记间的双向链接，支持模糊搜索与图谱分析。</p>
+                    <div class="project-tags">
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Obsidian</span>
+                        <span class="tag">Markdown</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新动态 -->
+        <div class="section">
+            <div class="section-title">
+                <i class="fas fa-pencil-alt"></i> 最新动态
+            </div>
+            <div class="card" style="padding: 1.2rem 1.8rem;">
+                <ul style="list-style: none;">
+                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #f1f5f9;">📝 发布了文章《用 GitHub Actions 自动化部署》</li>
+                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #f1f5f9;">⭐ 给项目 <code>tailwindlabs/tailwindcss</code> 提了 PR 并被合并</li>
+                    <li style="padding: 0.5rem 0;">🎉 开始写一个微型的数据库教程（WIP）</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer">
+            <p>© 2025 林一 · 基于 GitHub Pages 构建 · <i class="far fa-heart" style="color: #ef4444;"></i> 开源并分享</p>
+        </div>
+    </div>
+
+    <!-- 自定义 JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
